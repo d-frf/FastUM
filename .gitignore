@@ -22,3 +22,29 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# Gradle temporary files and build artifacts
+.gradle/
+build/
+bin/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.nb-gradle/
+
+# Local configuration and logs
+*.log
+local.properties
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# If you want to exclude the specific MySQL connector library
+# FastUM/lib/mysql-connector-java-8.0.22.jar
